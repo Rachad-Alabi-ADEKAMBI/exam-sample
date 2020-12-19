@@ -1,0 +1,151 @@
+html {
+  margin: 0;
+}
+
+body {
+  width: 60%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #88cedf;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 20vh;
+  background-color: #4f81bd;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto 0 auto;
+}
+
+.header__img {
+  width: 250px;
+  height: 100%;
+  margin-left: 0;
+}
+
+.header__hero {
+  width: 60%;
+  background-color: #4f81bd;
+  text-align: left;
+}
+
+h1 {
+  color: white;
+  margin: 30px auto auto 10px;
+  font-size: 2.5em;
+}
+
+p {
+  color: white;
+  margin: auto 50px;
+  font-size: 1.5em;
+}
+
+.header__registration {
+  width: 250px;
+  float: right;
+  height: 100%;
+  border-left: 1px black solid;
+  display: table;
+  text-align: center;
+}
+
+.header__registration__link {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.main {
+  width: 100%;
+  background-color: #88cedf;
+  height: 65vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.main__block {
+  width: 250px;
+  height: 60vh;
+  background-color: #b3a2c7;
+  margin: 0 auto auto 0;
+}
+
+.main__block__links {
+  margin: 30px auto;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.main__block__links ul {
+  margin: 30px auto;
+  height: 100%;
+}
+
+.main__block__links ul li {
+  margin: 20px auto;
+}
+
+.main__block__links ul li a {
+  color: black;
+  font-size: 1.5em;
+}
+.main__infos {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 0 auto auto;
+  background-color: #88cedf;
+}
+
+.main__infos__picture {
+  margin: 30px auto 30px 15px;
+  background-color: #4f81bd;
+  height: 250px;
+  width: 250px;
+  border: 1px black solid;
+  line-height: 250px;
+  text-align: center;
+  color: white;
+}
+
+.main__infos__text {
+  margin: auto 30px;
+}
+
+.main__logos {
+  width: 60%;
+  height: 200px;
+  margin: 20px auto;
+  background-color: #88cedf;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main__logos__logo {
+  width: 120px;
+  height: 65px;
+  border-radius: 60px / 40px;
+  margin: auto;
+  background-color: #4f81bd;
+  display: table;
+  text-align: center;
+}
+
+.main__logos__logo p {
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
+  width: 100%;
+}
